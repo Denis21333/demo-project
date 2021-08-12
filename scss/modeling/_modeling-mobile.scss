@@ -1,0 +1,82 @@
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  img {
+  display: block;
+  }
+
+  .list{
+    list-style: none;
+   }
+ 
+   .link{
+     text-decoration: none;
+   }
+
+
+   .modeling_list{
+     display: flex;
+     flex-wrap: wrap;
+   }
+
+    .modeling__title{
+      font-family: Cera Pro;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.25;
+      color: #487996;
+      margin-bottom: 16px;
+
+    }
+
+    .modeling__paragraph{   
+     font-family: Cera Pro;
+     font-style: 400;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 1.25;
+     color: #2B2B2B;
+     margin-bottom: 16px;
+    }
+
+    .modeling__paragraph_secondary{
+      font-family: Cera Pro;
+      font-style: 400;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.25;
+      color: #2B2B2B;
+      margin-bottom: 52px;
+    }
+
+    .modeling__title_secondary{   
+     font-family: Cera Pro;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height:1.27;
+     text-transform: uppercase;
+     color: #487996;
+     margin-bottom: 16px;
+
+    }
+
+    .modeling__link::after{
+      content: "" ;
+      background-image: url(../images/Modeling/icon.jpg) ;  
+    }
