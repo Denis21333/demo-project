@@ -87,19 +87,10 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .modeling__box {
-    top: 0;
-    right: 0;
-  }
-}
-
+.modeling__box
 .modeling__link:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -166,5 +157,16 @@ img {
           box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(72, 121, 150, 0.1), 5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #FFFFFF;
   border-radius: 30.5px;
   margin-top: 50px;
+}
+
+.modeling__link::before {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */

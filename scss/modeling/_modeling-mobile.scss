@@ -82,9 +82,7 @@
 
     }
 
-    .modeling__list_first{
-     
-    }
+ 
 
     .modeling__wrapper{
       @media screen and (min-width: 768px){
@@ -172,7 +170,7 @@
   }
 
 
-      .modeling__link::after{
+      .modeling__link::before{
         position: absolute;
         display: block;
         bottom: 0;
