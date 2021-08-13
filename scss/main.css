@@ -90,13 +90,11 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    position: relative;
   }
 }
 
 @media screen and (min-width: 768px) {
   .modeling__box {
-    position: absolute;
     top: 0;
     right: 0;
   }
@@ -109,6 +107,13 @@ img {
 .modeling__card {
   margin-top: 32px;
   margin-bottom: 52px;
+}
+
+@media screen and (min-width: 768px) {
+  .modeling__card {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .modeling__title_third {

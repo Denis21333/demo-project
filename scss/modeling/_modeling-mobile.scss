@@ -89,21 +89,21 @@
     .modeling__wrapper{
       @media screen and (min-width: 768px){
         display: flex;
-        justify-content: space-between;
-        position: relative;
+        // justify-content: space-between;
+        // position: relative;
       }
       }
       
 
 
     .modeling__box{
-      @media screen and (min-width: 768px){
-        position: absolute;
-        top: 0;
-        right: 0;
-      }
+      // @media screen and (min-width: 768px){
+        // position: absolute;
+      //   top: 0;
+      //   right: 0;
+      // }
       
-    }
+    // }
 
 
     .modeling__link:not(:last-child){
@@ -172,9 +172,13 @@
   }
 
 
-
-
-
-  .modeling__button{
-    
+  .modeling__link::after{
+      position: absolute;
+      display: block;
+      bottom: 0;
+      content: '';
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background: var(--accent-color);
   }
