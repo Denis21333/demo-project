@@ -96,7 +96,7 @@
       
 
 
-    .modeling__box{
+    .modeling__box
       // @media screen and (min-width: 768px){
         // position: absolute;
       //   top: 0;
@@ -172,13 +172,16 @@
   }
 
 
-  .modeling__link::after{
-      position: absolute;
-      display: block;
-      bottom: 0;
-      content: '';
-      width: 100%;
-      height: 4px;
-      border-radius: 2px;
-      background: var(--accent-color);
-  }
+      .modeling__link::after{
+        position: absolute;
+        display: block;
+        bottom: 0;
+        content: '';
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background: var(--accent-color);
+    
+  
+      }
+      
